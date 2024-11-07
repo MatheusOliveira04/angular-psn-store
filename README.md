@@ -1,27 +1,36 @@
-# PsnStore
+# PSN Store - Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+## 🚀 Overview
 
-## Development server
+**PSN Store** is an Angular-based application that mimics the visual design of the **PlayStation Network (PSN)** store. The goal of this project was to create a **single-page application (SPA)** that is intuitive and responsive, with simplified navigation, offering a smooth user experience similar to the official PSN store interface. The app leverages Angular's capabilities to keep the code efficient and scalable.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📋 Features
 
-## Code scaffolding
+- **🎮 PSN Store Layout**: Recreation of the official PlayStation Network store layout.
+- **📱 Single Page Application (SPA)**: Dynamic navigation with no page reloads, powered by Angular's routing.
+- **💻 Responsive Design**: The app is compatible with desktops, tablets, and mobile devices.
+- **🔍 Category Navigation**: Allows users to filter products by categories like "Games", "Subscriptions", and "Offers".
+- **💡 Simplified Code**: With Angular's SPA architecture, the project maintains a clean and easy-to-manage codebase.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠 Technologies Used
 
-## Build
+- **[Angular](https://angular.io/)**: TypeScript-based framework for building SPAs.
+- **HTML5**: Used for structuring the page content.
+- **CSS3**: Styling and layout, using Flexbox and CSS Grid for responsive design.
+- **Angular Router**: Manages routing within the app without reloading the page.
+- **Angular Components**: For creating reusable UI elements.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚙️ Installation
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js** (>= 14.x)
+- **npm** (>= 6.x)
 
-## Running end-to-end tests
+### Steps
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository**:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   git clone https://github.com/your-username/psn-store.git
+   cd psn-store
