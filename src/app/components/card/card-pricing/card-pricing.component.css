@@ -1,0 +1,58 @@
+.card-pricing__container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Lucida Sans';
+    color: white;
+}
+
+.card-pricing__content {
+    margin-left: 5px;
+    width: 60%;
+}
+
+.card-pricing__content__title > h3 {
+    margin-top: 5px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.card-pricing__content__game-informations {
+    margin-top: 2px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-pricing__content__game-informations > * {
+    margin-right: 5px;
+}
+
+.card-pricing__content__game-informations__icon {
+    color: aqua;
+    font-weight: bolder;
+} 
+
+.card-pricing__content__game-informations__plataform {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-pricing__content__game-informations__plataform > p {
+    color: gray;
+}
+
+.card-pricing__price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+}
+
+.card-pricing__price > h2 {
+    margin-right: 10px;
+}
