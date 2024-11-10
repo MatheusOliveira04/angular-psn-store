@@ -1,7 +1,9 @@
 <div class="card__container">
     <a href="">
-        <img class="card__image" src="assets/images/bt-1.jpg" alt="">
-        <app-card-label></app-card-label>
-        <app-card-pricing></app-card-pricing>
+        <img class="card__image" [src]="card.image" alt="">
+        <app-card-label [label]="card.label"></app-card-label>
+        <app-card-pricing [type]="card.type" [price]="card.price"
+            [plataforms]="card.plataforms">
+        </app-card-pricing>
     </a>
 </div>

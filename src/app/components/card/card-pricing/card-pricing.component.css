@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.8);
-    font-family: 'Lucida Sans';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -18,13 +18,12 @@
 
 .card-pricing__content__title > h3 {
     margin-top: 5px;
-    font-weight: 100;
     font-size: 30px;
 }
 
 .card-pricing__content__game-informations {
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -39,11 +38,8 @@
 } 
 
 .card-pricing__content__game-informations__plataform {
-    display: flex;
-    flex-wrap: wrap;
-}
-.card-pricing__content__game-informations__plataform > p {
     color: gray;
+    margin-right: 5px;
 }
 
 .card-pricing__price {

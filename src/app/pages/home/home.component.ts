@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { CardComponent } from '../../components/card/card.component';
 import { CommonModule } from '@angular/common';
+import { CardModel } from '../../models/cardModel';
+
+import { data } from '../../data/dataCards';
 
 @Component({
   selector: 'app-home',
@@ -11,5 +14,13 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent {
 
-  cards:{}[]= [{}, {}, {}, {}];
+  cards:CardModel[]= [];
+
+  cardModel!:CardModel;
+
+  constructor() {
+    this.cards = [...data];
+  }
+
+
 }

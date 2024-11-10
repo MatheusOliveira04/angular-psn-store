@@ -1,3 +1,3 @@
 <div class="home__container">
-    <app-card *ngFor="let card of cards"></app-card>
+    <app-card [card]="cardIndex" *ngFor="let cardIndex of cards; index"></app-card>
 </div>
